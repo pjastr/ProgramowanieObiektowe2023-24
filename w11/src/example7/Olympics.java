@@ -1,6 +1,6 @@
 package example7;
 
-class Olympics extends SportsCompetition {
+class Olympics extends SportsCompetition implements Comparable<SportsCompetition>{
     private String hostCity;
 
     public Olympics(String name, int year, String hostCity) {

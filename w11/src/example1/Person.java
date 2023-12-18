@@ -26,11 +26,11 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person other) {
-        int nameComparison = name.compareTo(other.name);
-        if (nameComparison != 0) {
-            return nameComparison;
-        }
-        return Integer.compare(age, other.age);
-        // return Integer.compare(this.name.length(), other.name.length());
+//        int nameComparison = name.compareTo(other.name);
+//        if (nameComparison != 0) {
+//            return nameComparison;
+//        }
+//        return Integer.compare(age, other.age);
+        return Integer.compare(this.name.length(), other.name.length());
     }
 }

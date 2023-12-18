@@ -10,7 +10,7 @@ public class Test {
         Arrays.sort(array, (a, b) -> a - b);
         System.out.println(Arrays.toString(array));
         System.out.println("Case2:");
-        String[] words = {"apple", "orange", "banana"};
+        String[] words = {"applerrrrrrrrrrrr", "orange", "banana"};
         Arrays.sort(words, (s1, s2) -> s1.length() - s2.length());
         System.out.println(Arrays.toString(words));
         System.out.println("Case3:");

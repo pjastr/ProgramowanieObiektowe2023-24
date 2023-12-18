@@ -1,6 +1,6 @@
 package example3;
 
-public class Manager extends Employee {
+public class Manager extends Employee implements Comparable<Employee>{
     private int bonus;
 
     public Manager(String name, int salary, int bonus) {

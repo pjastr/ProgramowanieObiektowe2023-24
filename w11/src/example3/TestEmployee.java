@@ -23,7 +23,7 @@ public class TestEmployee {
 
         Employee[] employees2 = new Employee[3];
         employees2[0] = new Manager("Adam Nowak", 5000, 1000);
-        employees2[1] = new Manager("Jan Kowalski", 4500, 2000);
+        employees2[1] = new Manager("Adam Nowak", 4500, 2000);
         employees2[2] = new Manager("Anna Zawadzka", 4000, 3000);
         System.out.println("Case2:");
         for (var employee : employees2) {
