@@ -17,7 +17,7 @@ public class Test24 {
         students[1] = new Student("John", 30, 122278);
         students[2] = new Student("Adam", 20, 125433);
         students[3] = new Student("Adam", 16, 165478);
-        //Pair<Student> pair2 = minmaxBad(students); // to nie jest możliwe
+        //Pair<Student> pair2 = minmaxOld(students); // to nie jest możliwe
         System.out.println("Case 2");
         Pair<Student> pair2 = minmax(students);
         System.out.println(pair2.getFirst());
