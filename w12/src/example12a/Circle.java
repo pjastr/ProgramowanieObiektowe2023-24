@@ -1,6 +1,6 @@
 package example12a;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Cloneable{
 
     private int radius;
 
