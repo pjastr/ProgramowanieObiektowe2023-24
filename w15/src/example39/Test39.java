@@ -7,11 +7,12 @@ public class Test39 {
 
     public static void main(String[] args) {
         TreeMap<String, Integer> map = new TreeMap<>();
+        map.put("d", 2);
+        map.put("e", 1);
         map.put("a", 1);
         map.put("b", 2);
         map.put("c", 1);
-        map.put("d", 2);
-        map.put("e", 1);
+
         System.out.println(map);
         System.out.println(subMapInRange(map, "b", "d"));
     }

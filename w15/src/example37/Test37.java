@@ -14,6 +14,13 @@ public class Test37 {
         treeSet.add(-5);
         System.out.println(treeSet);
         System.out.println(a1.findElementsInRange(treeSet, 1, 5));
+
+        TreeSet<Student> t2 = new TreeSet<>();
+        t2.add(new Student("Anna", 4.0));
+        t2.add(new Student("Anna", 4.0));
+        t2.add(new Student("Tomasz", 4.5));
+        System.out.println(t2);
+        System.out.println(a1.findElementsInRange(t2, new Student("Ewa", 4.9), new Student("Waldermar", 4.0)));
     }
 
 }

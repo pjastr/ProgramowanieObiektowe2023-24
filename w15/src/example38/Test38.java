@@ -6,11 +6,12 @@ public class Test38 {
 
     public static void main(String[] args) {
         HashMap<String, Integer> map = new HashMap<>();
-        map.put("a", 1);
-        map.put("b", 2);
         map.put("c", 1);
         map.put("d", 2);
         map.put("e", 1);
+        map.put("a", 1);
+        map.put("b", 2);
+
         System.out.println(map);
         System.out.println(countValueOccurrences(map));
     }
